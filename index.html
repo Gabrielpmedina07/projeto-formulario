@@ -13,7 +13,33 @@
     <section>
 
         <form action="" method="get">
+
+            <fieldset>
+                   <!-- Dados Pessoais -->
+
+                <legend>Dados pessoais</legend>
+                <label for="userName">Nome</label>
+                <input type="text" name="userName" required>
+                <br>
+                <label for="userAge">Idade</label>
+                <input type="number" name="userAge" min="1" max="100" required>
+                <br>
+                <label for="userBirthDate">Data de nascimento</label>
+                <input type="date" name="userBirthDate">
+                <br>
+                <label for="userEmail">Email</label>
+                <input type="email" name="Email">
+                <br>
+                <label for="userPhoneNumber">Telefone</label>
+                <input type="tel" name="userPhoneNumber" pattern="(0-9)" placeholder="DDD+ numero sem espaco ou hifen">
+                <br>
+                <label for="userImage">Uploud de foto</label>
+                <input type="file" accept="image/*" name="userImage">
+                
+
+            </fieldset>
             
+            <button type="submit">Enviar</button>
         </form>
     </section>
 </body>
