@@ -36,11 +36,72 @@
                 <label for="userImage">Uploud de foto</label>
                 <input type="file" accept="image/*" name="userImage">
                 
+            </fieldset>
+
+            <fieldset>
+                   <!-- Perfil -->
+                
+                <legend>Perfil</legend>
+                
+                <p>Gênero</p>
+                <input type="radio" name="userGender" value="Feminino">
+                <label for="userGender">Feminino</label>
+                <input type="radio" name="userGender" value="Masculino">
+                <label for="userGender">Masculino</label>
+                <input type="radio" name="userGender" value="Prefiro não informar">
+                <label for="userGender">Prefiro não informar</label>
+                <br>
+
+                <label for="MaritalStatus">Estado Civil</label>
+                <select name="MaritalStatus">
+                    <option value="NotInformed">Selecione...</option>
+                    <option value="Solteiro">Solteiro</option>
+                    <option value="Casado">Casado</option>
+                    <option value="Divorciado">Divorciado</option>
+                    <option value="União estável">União estável</option>
+                </select>
+                <br>
+
+                <label for="userState">Estado</label>
+                <select name="userState">
+                    <option value="NaoInformado">selecione...</option>
+                    <option value="State">Acre</option>
+                    <option value="State">Amapá</option>
+                    <option value="State">Amazonas</option>
+                    <option value="State">Bahia</option>
+                    <option value="State">Ceará</option>
+                    <option value="State"> Distrito Federal</option>
+                    <option value="State">Espírito Santo</option>
+                    <option value="State">Goiás</option>
+                    <option value="State">Maranhão</option>
+                    <option value="State">Mato Grosso</option>
+                    <option value="State">Mato Grosso do Sul</option>
+                    <option value="State">Minas Gerais</option>
+                    <option value="State">Pará</option>
+                    <option value="State">Paraíba</option>
+                    <option value="State">Paraná</option>
+                    <option value="State">Pernambuco</option>
+                    <option value="State">Piauí</option>
+                    <option value="State">Rio de Janeiro</option>
+                    <option value="State">Rio Grande do Norte</option>
+                    <option value="State">Rio Grande do Sul</option>
+                    <option value="State">Rondônia</option>
+                    <option value="State">Roraima</option>
+                    <option value="State">Santa Catarina</option>
+                    <option value="State">São Paulo</option>
+                    <option value="State">Sergipe</option>
+                    <option value="State">Tocantins</option>
+                    <option value="State">Alagoas</option>
+                </select>
+
+                <label for="userCity">Cidade</label>
+                <input type="text" name="userCity">
 
             </fieldset>
             
             <button type="submit">Enviar</button>
         </form>
+
     </section>
 </body>
 </html>
